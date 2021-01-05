@@ -10,3 +10,10 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 3500
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+name : consumer
