@@ -12,6 +12,9 @@ zuul:
     rabbit-provid:
       path: /rabbitProvid/**
       serviceId: rabbit-provid
+    zipkin:
+      path: /zipkin/**
+      serviceId: zipkin
     te:
       path: /te/**
       url: http://www.baidu.com
