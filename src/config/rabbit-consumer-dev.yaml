@@ -4,4 +4,4 @@ spring:
     port: 5672
     username: guest
     password: guest
-name : bus
+name : rabbit-consumer-dev
