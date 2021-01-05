@@ -1,0 +1,17 @@
+zuul:
+  routes:
+    consumer:
+      path: /consumer/**
+      serviceId: consumer
+    provid:
+      path: /provid/**
+      serviceId: provid
+    rabbit-consumer:
+      path: /rabbitConsumer/**
+      serviceId: rabbit-consumer
+    rabbit-provid:
+      path: /rabbitProvid/**
+      serviceId: rabbit-provid
+    te:
+      path: /te/**
+      url: http://www.baidu.com

@@ -1,0 +1,12 @@
+feign:
+  hystrix:
+    enabled: true
+hystrix:
+  command:
+    default:
+      circuitBreaker:
+        requestVolumeThreshould: 5
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3500
