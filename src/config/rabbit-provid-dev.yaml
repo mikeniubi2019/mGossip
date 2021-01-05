@@ -6,7 +6,4 @@ spring:
     port: 5672
     username: guest
     password: guest
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8071/eureka,http://localhost:8070/eureka
+name : bus
