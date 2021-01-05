@@ -16,6 +16,9 @@ zuul:
       path: /te/**
       url: http://www.baidu.com
 spring:
+  sleuth:
+    sampler:
+      probability: 0.1
   rabbitmq:
     host: localhost
     port: 5672
